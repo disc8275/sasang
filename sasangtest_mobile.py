@@ -1263,7 +1263,7 @@ def main():
 
         # [추가 요청] 추가 문의 사항 입력 필드
         st.markdown("##### ❓ 궁금한 점이 있으신가요?")
-        feedback = st.text_area("본인의 체질에 대해 더 궁금한 점이 있다면 적어주세요. 적극적으로 반영하겠습니다. (선택)", height=80, key="final_feedback")
+        feedback = st.text_area("본인의 체질에 대해 더 궁금한 점이 있다면 적어주세요. 적극적으로 결과지에 반영하겠습니다. (선택)", height=80, key="final_feedback")
 
         if st.button("📨 문의 내용 보내기"):
             if feedback:
